@@ -1,0 +1,96 @@
+git hub : 
+
+
+$ git init - local resp.
+
+$ git add <file> - add file
+
+$ git status - check
+
+$git commit - comm. changes in index
+
+$ git push - push to remote res.
+
+$ git pull - pull latest form remote res.
+
+$ git clone - clone into new res.
+
+
+step :
+
+
+$git --version
+$git init(master folder)  -> folder of git
+$git config --gloabl user.name  'abc'
+
+to add index.html to res.
+	$git add index.html
+	$git status
+
+to remove the index filr
+	$git rm --cached index.html
+	$git status
+
+to add all htnl file
+	$git add *.html
+	$git status
+
+to add all file with js
+	$git add .
+	$git status
+
+to commit
+	$git commit
+
+     after editing sone files to commit 
+	$git add .
+	$git commit -m 'chaned app.js'
+	$git status
+
+to ignore files
+	gitignore make file
+	gitignore -> log.text 	or     /dir2     or    .*txt
+	log.txt -> error log
+	
+	touch .gitignore	
+	touch log.txt
+
+	$git add .
+	$git status
+	
+to enter entire dir
+	dir1 -> app.js
+	dir2 -> app.js
+
+to branch the files
+	$git branch mybrachname  //login
+	$git status
+	$git commit -m 'unchaneg'
+	
+	to switch the branch
+		$git checkout mybrnachname - now u wil, be in your new branch
+					//login
+
+		
+	to create a login file in branch
+		touch login.html   -> login
+		$git checkout master
+		git merge login
+		
+git hub:
+
+	file to add to git hub
+		$git push
+		$git pull 		-	up-to-date
+		
+	
+		
+		
+		
+	
+	
+	
+	
+	
+
+ 

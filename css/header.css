@@ -1,0 +1,415 @@
+body
+{
+	background-color: #F3F3F3;
+}
+
+.container-fluid
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+/* banner section */
+.banner img
+{
+	max-width: 100%;
+	position: relative;
+}
+
+/* header section*/
+.row
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* navbar section */
+
+.navLogo												  
+{
+	position: absolute;
+	top: 10px;	
+}
+
+.logo.navLogo {												
+    margin: 26px 70px;
+}
+
+.navigation.navLogo {										
+    margin: 16px -23px;
+}
+
+a.navbar-brand {											
+    width: 80%;
+}
+
+.navigation													
+{	
+	padding-left: 25%;
+}
+
+li.nav-item.active {									    
+    padding-right: 30px;
+    letter-spacing: 2px;
+}
+
+/*.nav-item:hover {
+    color: red;
+}*/
+
+.seeWhy {									
+    position: absolute;
+    margin-left: 45%;
+    top: 750px;    
+}
+
+.seeWhyLogo
+{
+	margin: 0px 0px 23px 16px;	
+}
+
+.seeWhyText p
+{
+	color: white;
+	letter-spacing: 1px;
+}
+
+/* section 2 */
+.topLogo img
+{
+	width: 10%;
+	display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.sectionTwo-container
+{
+	margin-top: 30px;
+}
+
+.sectionTwoContent
+{
+	margin-top: 30px;
+}
+
+.whatWeDo {
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.whatWeDoContent p
+{
+	text-align: center;
+}
+
+.whatWeDoSlider-row.row {
+    margin-top: 50px;
+}
+
+.col.whatWeDoImg {
+    text-align: center;
+}
+
+.whatWeDoImg img
+{
+	width: 50%;
+}
+
+.imgHeader
+{
+	margin-top: 20px;
+}
+
+.imgHeader p
+{
+	letter-spacing: 1px;
+}
+
+
+/* section 3*/
+.sectionThree-container
+{
+	position: relative;
+	height: 270px;
+}
+
+.sectionThree-container img
+{
+	max-width: 100%;	
+}
+
+.sectionThreeLogo 
+{
+	position: absolute;
+	top: 30%;
+	left: 46%;
+}
+
+.sectionThreeLogo img
+{
+	width: 75%;
+}
+
+.sectionThreeHeader h5
+{
+	text-align: center;
+	margin-top: -12%;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.sectionThreeContent p
+{
+	text-align: center;
+	color: white;
+	/*word-wrap:break-word;*/
+	white-space: pre-line;
+}
+
+/* scetion 4*/
+.sectionFour-container 
+{
+	margin-top: 35px;
+}
+.sectionFourHeader h5, .sectionSixHeader h5
+{
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.col-sm-4.meetTheTeam {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.meetTheTeam img
+{
+	width: 50%;
+}
+
+.person
+{
+	margin-top: 10px;
+}
+
+.person p
+{
+	text-align: center;
+	line-height: 5px;
+}
+
+p.name {
+    color: red;
+    font-weight: bold;
+}
+
+p.social {
+    margin-top: 30px;
+}
+
+.fa
+{
+	padding-right: 10px;
+	color: gray;
+	font-size: 23px;
+}
+
+/*  section 5 */
+
+.sectionFive-container
+{
+	margin-top: 35px;
+	position: relative;
+}
+
+.sectionFive-container img
+{
+	max-width: 100%;	
+}
+
+.sectionFiveLogo img
+{
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    bottom: 65%;
+    margin: auto;
+    width: 8%;
+}
+
+.sectionFiveHeader h5
+{
+	position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 30%;
+    color: #ED485C;
+    letter-spacing: 1px;
+}
+
+.scetionFiveSlider
+{
+	position: absolute;
+	bottom: 30%;
+	margin: auto;
+	left: 0;
+    right: 0;
+    text-align: center;
+   /* width: 65%;*/
+}
+
+.happyClient img
+{
+	width: 50%;
+}
+
+.happyClientOzi img
+{
+	width: 15%;
+}
+
+/* scetion 6 */
+.sectionSix-container, .sectionSixHeader, .sliderButton, .allWork, .ourWork
+{
+	margin-top: 35px;
+}
+
+button.btn.btn-outline-danger {
+    border-radius: 0px;
+    margin-right: 15px;
+    padding: .375rem 1.75rem;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+button.btn-outline-danger:hover
+{
+	background-color: #96A6B6;
+	border: 2px solid #96A6B6;
+}
+
+.flex-container 
+{
+    display: flex;   
+}
+
+.ourWorkImg img
+{
+	max-width: 100%;
+}
+
+/* scetion 7 */
+.sectionSeven-container, .sectionSevenHeader, .sectionSevenBlog, .sectionSevenContent,
+.loremContent, .text-center
+{
+	margin-top: 35px;
+}
+
+.sectionSevenHeader h5
+{
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.sectionSeven-row 
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+i.fa.fa-comments-o {
+    float: right;
+}
+
+/* scetion 8 */
+.sectionEightBanner img
+{
+	max-width: 100%;
+}
+
+.sectionEight-container
+{
+	position: relative;
+	margin-top: 35px;
+}
+
+.sectionEightHeader h4
+{
+	color: white;
+	position: absolute;
+	top: 20%;
+	margin: auto;
+	left: 0;
+    right: 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.sectionEightContent-row
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+button.btn.btn-danger {
+    width: 50%;
+    height: 40px;
+    border-radius: 0px;
+    letter-spacing: 2px;
+}
+
+.emailForm
+{
+	border-radius: 0px;
+}
+
+.socialicon img
+{
+	height: 50px;
+	width: 50px;
+}
+
+/* footer */
+.container-footer, .contactHeader h5, .form, .triContent p, .form-group
+{
+	margin-top: 35px;
+}
+
+.contactHeader h5 {
+   
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+.triEmail p strong
+{
+	color: red;
+}
+
+.name, .email
+{
+	width: 40%;
+    height: 40px;
+}
+
+textarea
+{
+	width: 60%;
+}
+
+.sendBtn
+{
+	width: 40%;
+}
+
+
+
+
+
