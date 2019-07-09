@@ -50,11 +50,22 @@ a.navbar-brand {
 	padding-left: 25%;
 }
 
+/*a:hover 
+{ 
+	background-color: red; 
+}*/
+.navbar-nav>li>a:hover{
+  color:red;
+}
+
 li.nav-item.active {									    
     padding-right: 30px;
     letter-spacing: 2px;
 }
 
+.navbar-dark .navbar-nav .active>.nav-link:hover {
+    color: #f90000;
+}
 /*.nav-item:hover {
     color: red;
 }*/
@@ -114,10 +125,48 @@ li.nav-item.active {
     text-align: center;
 }
 
-.whatWeDoImg img
-{
-	width: 50%;
+.triangle {
+	    margin: 0 auto;
+	position: relative;
+    width: 60px;
+    height: 30px;
+    border-top: solid 100px #A9B8CC;
+    border-left: solid 100px transparent;
+    border-right: solid 100px transparent;
 }
+
+.triangle:hover
+{
+	border-top: solid 100px red;
+    border-left: solid 100px transparent;
+    border-right: solid 100px transparent;
+}
+
+.faIcon
+{
+	position: absolute;
+    font-size: 36px;
+    top: 10px;
+  left: 145px;
+
+}
+
+i.fa.fa-search-plus, i.fa.fa-cubes, i.fa.fa-dashboard, i.fa.fa-send-o {
+    color: white;
+    font-size:33px
+}
+
+.carousel
+{
+	width:90%;
+  margin:0px auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
 
 .imgHeader
 {
@@ -145,7 +194,7 @@ li.nav-item.active {
 .sectionThreeLogo 
 {
 	position: absolute;
-	top: 30%;
+	top: 15%;
 	left: 46%;
 }
 
@@ -287,10 +336,21 @@ button.btn.btn-outline-danger {
     border: 2px solid red;
 }
 
+button.btn.btn-outline-danger.navbar-btn.active a {
+    color: white;
+}
+
 button.btn-outline-danger:hover
 {
 	background-color: #96A6B6;
+	color: white;
 	border: 2px solid #96A6B6;
+}
+
+button.btn-outline-danger a
+{	
+	color: red;
+    text-decoration: none;
 }
 
 .flex-container 
@@ -324,6 +384,16 @@ button.btn-outline-danger:hover
 
 i.fa.fa-comments-o {
     float: right;
+}
+
+.comment
+{
+	float: right;
+}
+
+.loremContent p
+{
+	margin-top: 60px;
 }
 
 /* scetion 8 */
@@ -376,7 +446,7 @@ button.btn.btn-danger {
 }
 
 /* footer */
-.container-footer, .contactHeader h5, .form, .triContent p, .form-group
+.container-footer, .contactHeader h5, .form, .triContent p, .form-group, .map
 {
 	margin-top: 35px;
 }
@@ -393,7 +463,7 @@ button.btn.btn-danger {
 	color: red;
 }
 
-.name, .email
+.formName, .email
 {
 	width: 40%;
     height: 40px;
@@ -409,7 +479,22 @@ textarea
 	width: 40%;
 }
 
+.map
+{
+	width: 100%;
+	position: relative;	
+}
+
+iframe
+{
+	position: absolute;
+	width: 100%;
+    height: 400px;
+}
 
 
+.hidden{
+	display: none;
+}
 
 

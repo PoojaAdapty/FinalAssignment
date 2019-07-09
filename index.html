@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title> TRIGONUM </title>
 
@@ -8,19 +8,13 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="stylesheet" type="text/css" href="">
+	<!-- slick css and jquery -->
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+	<!-- External CSS file -->
 	<link rel="stylesheet" type="text/css" href="css/header.css">
-	<link rel="stylesheet" type="text/css" href="css/footer.css">
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-	<!-- External Js -->
-	<script src="js/custom.js"></script>
 
 	<meta name="google" content="notranslate">
 
@@ -76,7 +70,7 @@
 <!-- section 2 -->
 	<div class="sectionTwo-container container">
 		<div class="topLogo sectionTwoContent">
-			<img src="images/bannerAndLogo/topLogo.png">
+			<img src="images/bannerAndLogo/topLogo.png" alt="logo">
 		</div>
 		<div class="whatWeDo sectionTwoContent">
 			<h5><strong> WHAT WE DO </strong></h5>
@@ -86,10 +80,15 @@
 				Fuse suscipit sit amet nisi in euimod. Aenean dignissim finibus eros, sit amet venenatis ante vestine id Vivamus arcu elit, luctus eu porta a, pellentesque a mi. Integer finibus auctor faucibus. 
 			</p>
 		</div>
-		<div class="whatWeDoSlider">
-			<div class="whatWeDoSlider-row row">
+		<div class="whatWeDoSlider ">
+			<div class="whatWeDoSlider-row row carousel">
 				<div class="col whatWeDoImg">
-					<img src="images/whatWeDo/research.png" alt="research" />
+					<div class="triangle">
+						<a href="#"></a>
+					</div>
+					<div class="search faIcon">
+						<i class="fa fa-search-plus"></i>
+					</div>
 					<div class="imgHeader">
 						<p><strong> RESEARCHING </strong></p>
 					</div>
@@ -100,7 +99,12 @@
 					</div>
 				</div>
 				<div class="col whatWeDoImg">
-					<img src="images/whatWeDo/research.png" alt="research" />
+					<div class="triangle">
+						<a href="#"></a>
+					</div>
+					<div class="cubes faIcon">
+						<i class="fa fa-cubes"></i>
+					</div>
 					<div class="imgHeader">
 						<p><strong> DEVELOPMENT</strong> </p>
 					</div>
@@ -111,7 +115,12 @@
 					</div>
 				</div>
 				<div class="col whatWeDoImg">
-					<img src="images/whatWeDo/research.png" alt="research" />
+					<div class="triangle">
+						<a href="#"></a>
+					</div>
+					<div class="dashboard faIcon">
+						<i class="fa fa-dashboard"></i>
+					</div>
 					<div class="imgHeader">
 						<p><strong> TESTING </strong></p>
 					</div>
@@ -122,7 +131,12 @@
 					</div>
 				</div>
 				<div class="col whatWeDoImg">
-					<img src="images/whatWeDo/research.png" alt="research" />
+					<div class="triangle">
+						<a href="#"></a>
+					</div>
+					<div class="send faIcon">
+						<i class="fa fa-send-o"></i>
+					</div>
 					<div class="imgHeader">
 						<p><strong> RELEASE </strong></p>
 					</div>
@@ -141,7 +155,7 @@
 		<div class="sectionThreeBanner">
 			<img src="images/trigonum/trigonum.jpg" alt="scetionThreeBanner" />
 			<div class="sectionThreeLogo">
-				<img src="images/trigonum/triLogo.png">
+				<img src="images/trigonum/triLogoo.png" alt="logo">
 			</div>
 			<div class="sectionThreeHeader">
 				<h5><strong> TRIGONUM TODAY </strong></h5>
@@ -207,7 +221,7 @@
 			<div class="scetionFiveSlider container">
 				<div class="scetionFive-row row">
 					<div class="col happyClient">
-						<img src="images/happyClient/chastica.png" alt="chastica" />
+						<img src="images/happyClient/chasticaa.png" alt="chastica" />
 					</div>
 					<div class="col happyClientOzi">
 						<img src="images/happyClient/ozi.png" alt="ozi" />
@@ -226,50 +240,54 @@
 <!-- scetion 6 -->
 	<div class="sectionSix-container container-fluid">
 		<div class="sectionSixLogo topLogo">
-			<img src="images/bannerAndLogo/topLogo.png">
+			<img src="images/bannerAndLogo/topLogo.png" alt="logo">
 		</div>
 		<div class="sectionSixHeader ourWork">
 			<h5><strong> OUR WORK </strong></h5>
 		</div>
 		<div class="sliderButton text-center ourwork-buttons">
-			<button type="button" class="btn btn-outline-danger navbar-btn active">ALL</button>
-			<button type="button" class="btn btn-outline-danger navbar-btn">VIDEO</button>
-			<button type="button" class="btn btn-outline-danger navbar-btn">WEB</button>
-			<button type="button" class="btn btn-outline-danger navbar-btn">LOGO</button>
+			<button type="button" class="btn btn-outline-danger navbar-btn active"
+					 id="all">ALL</button>
+			<button type="button" class="btn btn-outline-danger navbar-btn" id="video">
+				VIDEO</button>
+			<button type="button" class="btn btn-outline-danger navbar-btn" id="web">
+				WEB</button>
+			<button type="button" class="btn btn-outline-danger navbar-btn" id="logo">
+				LOGO</button>
 		</div>	
 		<div class="ourWork">	
 			<div class="flex-container">
-				<div class="ourWorkImg">
-					<img src="images/ourWork/work1.png">
+				<div class="ourWorkImg logo">
+					<img src="images/ourWork/work1.png"   alt="work">
 				</div>
-				<div class="ourWorkImg">
-					<img src="images/ourWork/work2.png">
+				<div class="ourWorkImg logo">
+					<img src="images/ourWork/work2.png" alt="work">
 				</div>
-				<div  class="ourWorkImg">
-					<img src="images/ourWork/work3.png">
+				<div  class="ourWorkImg video">
+					<img src="images/ourWork/work3.png" alt="work">
 				</div> 
-				<div  class="ourWorkImg">
-					<img src="images/ourWork/work4.png">
+				<div  class="ourWorkImg web">
+					<img src="images/ourWork/work4.png" alt="work">
 				</div>
-				<div  class="ourWorkImg">
-					<img src="images/ourWork/work5.png">
+				<div  class="ourWorkImg web">
+					<img src="images/ourWork/work5.png" alt="work">
 				</div>
 			</div>
 			<div class="flex-container">
-				<div class="ourWorkImg">
-					<img src="images/ourWork/work6.png">
+				<div class="ourWorkImg logo">
+					<img src="images/ourWork/work6.png" alt="work">
 				</div>
-				<div class="ourWorkImg">
-					<img src="images/ourWork/work7.png">
+				<div class="ourWorkImg logo">
+					<img src="images/ourWork/work7.png" alt="work">
 				</div>
-				<div  class="ourWorkImg">
-					<img src="images/ourWork/work8.png">
+				<div  class="ourWorkImg video">
+					<img src="images/ourWork/work8.png" alt="work">
 				</div> 
-				<div  class="ourWorkImg">
-					<img src="images/ourWork/work9.png">
+				<div  class="ourWorkImg web">
+					<img src="images/ourWork/work9.png" alt="work">
 				</div>
-				<div  class="ourWorkImg">
-					<img src="images/ourWork/work10.png">
+				<div  class="ourWorkImg web">
+					<img src="images/ourWork/work10.png" alt="work">
 				</div>
 			</div>
 		</div>
@@ -278,7 +296,7 @@
 <!-- scetion 7 -->
 	<div class="sectionSeven-container container-fluid">
 		<div class="sectionSevenLogo topLogo">
-			<img src="images/bannerAndLogo/topLogo.png">
+			<img src="images/bannerAndLogo/topLogo.png" alt="logo">
 		</div>
 		<div class="sectionSevenHeader blog">
 			<h5><strong> BLOG </strong></h5>
@@ -286,10 +304,11 @@
 		<div class="sectionSevenBlog">
 			<div class="sectionSeven-row row">				
 				<div class="col-sm-4">
-					<img src="images/blog/blog1.png">
+					<img src="images/blog/blog1.png" alt="blog">
 						<div class="sectionSevenContent">
-							<a href=""><i class="fa fa-calendar"></i></a>
-							<span>08/</span>
+							<i class="fa fa-calendar"></i>
+								<span>08 / 04 / 2014</span>
+								<span class="comment">0</span>
 							<i class="fa fa-comments-o"></i>
 						</div>
 						<div class="loremHeader">
@@ -305,24 +324,26 @@
 				<div class="col-sm-4">
 					<img src="images/blog/blog2.png" alt="blog" />
 						<div class="sectionSevenContent">
-							<a href=""><i class="fa fa-calendar"></i></a>
-							<span>08/</span>
+							<i class="fa fa-calendar"></i>
+								<span>08 / 04 / 2014</span>
+								<span class="comment">0</span>
 							<i class="fa fa-comments-o"></i>
 						</div>
 						<div class="loremHeader">
 							<h4 class="text-center"> Vivamus sed lacus vitae lacus cursus fringilla</h4>
 						</div>
-						<div class="loremContent">
+						<div class="loremMiddleContent">
 							<p class="text-center"> 
 								Nulla in neque id neque dapibus rutrum maximus aliquam ex. Nulla in neque id neque dapibus rutrum maximus aliquam ex.
 							</p>
 						</div>
 				</div>
 				<div class="col-sm-4">
-					<img src="images/blog/blog3.png">
+					<img src="images/blog/blog3.png" alt="blog">
 					<div class="sectionSevenContent">
-							<a href=""><i class="fa fa-calendar"></i></a>
-							<span>08/</span>
+							<i class="fa fa-calendar"></i>
+								<span>08 / 04 / 2014</span>
+								<span class="comment">0</span>
 							<i class="fa fa-comments-o"></i>
 						</div>
 						<div class="loremHeader">
@@ -347,7 +368,7 @@
 			<h4> GET UPDATE </h4>
 		</div>
 		<div class="sectionEightContent">			
-			<form class="form-horizontal">
+			<form class="form-horizontal" name="formEmail">
 				<div class="sectionEightContent-row row">
 					<div class="col-sm-6">
 						<header style="text-align:center"> 
@@ -372,7 +393,8 @@
 						<input type="email" class="form-control emailForm" id="email" placeholder="Enter email" name="email">
 					</div>
 					<div class="col-sm-3">
-						 <button type="button subscribe" class="btn btn-danger">SUBSCRIBE</button>
+						 <button type="submit" class="btn btn-danger subscribe" 
+						 onclick="Javascript:checkEmail();">SUBSCRIBE</button>
 					</div>
 				</div>
 			</form>
@@ -383,7 +405,7 @@
 	<footer>
 		<div class="container-footer container">
 			<div class="footerLogo topLogo">
-				<img src="images/bannerAndLogo/topLogo.png">
+				<img src="images/bannerAndLogo/topLogo.png" alt="logo">
 			</div>
 			<div class="contactHeader">
 				<h5><strong> CONTACT US</strong></h5>
@@ -420,7 +442,7 @@
 						<h5>SAY HELLO</h5>
 					</div>
 					<div class="form-group">
-						<input name="name" id="name" class="name" />
+						<input name="name" id="name" class="formName" />
 						<label for="name">Name</label>
 					</div>
 					<div class="form-group">
@@ -428,15 +450,54 @@
 						<label for="email">Your Email</label>
 					</div>
 					<div class="form-group">
-						<textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+						<textarea rows="4" cols="50" name="comment" form="usrform" id="msg"></textarea>
 					</div>
 					<div class="form-group sendBtn">
-						<button type="button" class="btn btn-danger">SEND</button>
+						<button type="submit" class="btn btn-danger" onclick="Javascript:checkValiadte()">SEND</button>
 					</div>
 				</div>
 			</div>				
 		</div>
 	</footer>
 
+<!-- map -->
+	<div class="container-fluid">
+		<div class="map">
+   			<!-- <iframe src="https://www.google.com/maps/place/Adapty+Solutions+Pvt.+Ltd./@19.1930398,72.9547152,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7b904d902b63d:0xbba49708d0d55d28!8m2!3d19.1930398!4d72.9569093" width="100%" height="200" frameborder="0" style="border:0"> -->
+   				<iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
+
+		</div>
+	</div>
+</div>
+
+<!-- jQuery library -->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- External Js -->
+<script src="js/custom.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript">
+
+
+$(document).ready(function() {
+	$('.carousel').slick({
+   slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
+  dots: true,
+  arrows:true,
+  prevArrow:'<button type="button" class="slick-prev"></button>',
+  nextArrow:'<button type="button" class="slick-next"></button>'
+  });
+	$('.slide').click(function() {
+    $slideshow.slick('slickNext');
+  		});
+	});
+
+</script>
 </body>
 </html>
