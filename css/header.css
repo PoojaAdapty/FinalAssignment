@@ -50,10 +50,6 @@ a.navbar-brand {
 	padding-left: 25%;
 }
 
-/*a:hover 
-{ 
-	background-color: red; 
-}*/
 .navbar-nav>li>a:hover{
   color:red;
 }
@@ -66,25 +62,20 @@ li.nav-item.active {
 .navbar-dark .navbar-nav .active>.nav-link:hover {
     color: #f90000;
 }
-/*.nav-item:hover {
-    color: red;
-}*/
 
 .seeWhy {									
-    position: absolute;
-    margin-left: 45%;
-    top: 750px;    
+   position: absolute;
+    left: 47%;
+    bottom: -125%;
+    color: white;
+
 }
 
 .seeWhyLogo
 {
-	margin: 0px 0px 23px 16px;	
-}
-
-.seeWhyText p
-{
-	color: white;
-	letter-spacing: 1px;
+	position: absolute;
+    left: 48%;
+    bottom: -130%;
 }
 
 /* section 2 */
@@ -220,7 +211,7 @@ i.fa.fa-search-plus, i.fa.fa-cubes, i.fa.fa-dashboard, i.fa.fa-send-o {
 }
 
 /* scetion 4*/
-.sectionFour-container 
+.sectionFour-container, .social
 {
 	margin-top: 35px;
 }
@@ -304,7 +295,7 @@ p.social {
 .scetionFiveSlider
 {
 	position: absolute;
-	bottom: 30%;
+	bottom: 20%;
 	margin: auto;
 	left: 0;
     right: 0;
@@ -497,4 +488,7 @@ iframe
 	display: none;
 }
 
+
+
+/* media query */
 

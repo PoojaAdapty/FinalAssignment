@@ -16,21 +16,6 @@ $(document).ready(function() {
 	});
 });
 
-// window.onload=function(){
-//   $slideshow = $('.carousel').slick({
-//   dots:true,
-//   autoplay:true,
-//   arrows:true,
-//   prevArrow:'<button type="button" class="slick-prev"></button>',
-//   nextArrow:'<button type="button" class="slick-next"></button>',
-//   slidesToShow:3,
-//   slidesToScroll:3
-//   });
-  
-//   $('.slide').click(function() {
-//     $slideshow.slick('slickNext');
-//   });
-// };
 
 
 function checkEmail() {
