@@ -509,12 +509,24 @@ iframe
 
 	input.emailForm
 	{
-		width: 100px;		
+		width: 100px;
+		position: absolute;		
 	}
 
 	button.btn.btn-danger.subscribe
 	{
 		margin-top: 20px;
+	}
+
+	.scetionFiveSlider
+	{
+		position: absolute;
+	    bottom: 0px;   
+	}
+
+	.sectionFiveHeader h5
+	{
+		font-size: 10px;
 	}
 
 }
