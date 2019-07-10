@@ -518,6 +518,13 @@ iframe
 		margin-top: 20px;
 	}
 
+	.faIcon 
+	{
+	    
+	    top: 20px;
+	    left: 100px;
+	}
+
 	.sectionThreeLogo 
 	{
 	    position: absolute;
@@ -535,7 +542,6 @@ iframe
 	{   
     	font-size: 7px;
 	}
-
 
 	.scetionFiveSlider
 	{
