@@ -518,6 +518,25 @@ iframe
 		margin-top: 20px;
 	}
 
+	.sectionThreeLogo 
+	{
+	    position: absolute;
+	    top: 0px;
+	    left: 45%;
+	    width: 15%;
+	}
+
+	.sectionThreeHeader h5 
+	{	    
+	    font-size: 8px;
+	}
+
+	.sectionThreeContent p 
+	{   
+    	font-size: 7px;
+	}
+
+
 	.scetionFiveSlider
 	{
 		position: absolute;
@@ -528,5 +547,7 @@ iframe
 	{
 		font-size: 10px;
 	}
+
+
 
 }
