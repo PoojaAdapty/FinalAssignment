@@ -492,3 +492,29 @@ iframe
 
 /* media query */
 
+@media only screen and (max-width: 845px) 
+{
+	
+/*newly added */
+	img.socialicon
+	{
+		width: 8%;
+		float: left;
+	}
+
+	input#email
+	{
+		margin-top: 20px;
+	}
+
+	input.emailForm
+	{
+		width: 100px;		
+	}
+
+	button.btn.btn-danger.subscribe
+	{
+		margin-top: 20px;
+	}
+
+}
