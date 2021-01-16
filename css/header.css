@@ -12,10 +12,14 @@ body
 
 
 /* banner section */
+.banner{
+	position: relative;
+}
+
 .banner img
 {
 	max-width: 100%;
-	position: relative;
+	/* position: relative; */
 }
 
 /* header section*/
@@ -49,6 +53,13 @@ a.navbar-brand {
 {	
 	padding-left: 25%;
 }
+@media only screen and (max-device-width: 768px){
+	.navigation													
+	{	
+		padding-left: 0;
+	}
+}
+
 
 .navbar-nav>li>a:hover{
   color:red;
@@ -64,18 +75,18 @@ li.nav-item.active {
 }
 
 .seeWhy {									
-   position: absolute;
-    left: 47%;
-    bottom: -125%;
-    color: white;
-
+	
 }
 
 .seeWhyLogo
 {
-	position: absolute;
+	/* position: absolute;
     left: 48%;
-    bottom: -130%;
+    bottom: -130%; */
+}
+
+.center-text{
+	text-align: center;
 }
 
 /* section 2 */
